@@ -197,7 +197,7 @@ migrate -version
 ## 1. Clone the Repository
 
 ```powershell
-git clone <your-altera-repository-url>
+git clone https://github.com/Chethiya-Bandara/Altera
 cd Altera
 ```
 
