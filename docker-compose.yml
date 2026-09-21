@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: altera-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_USER: altera
+      POSTGRES_PASSWORD: altera
+      POSTGRES_DB: altera
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - altera_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  altera_postgres_data:
