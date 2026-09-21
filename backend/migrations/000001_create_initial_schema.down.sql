@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS telemetry_events;
+DROP TABLE IF EXISTS api_keys;
+DROP TABLE IF EXISTS projects;
+DROP TABLE IF EXISTS users;
+
+DROP EXTENSION IF EXISTS pgcrypto;
